@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketReversedTunnelServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketReversedTunnelClient", "WebSocketReversedTunnelClient\WebSocketReversedTunnelClient.csproj", "{1AA355F0-C49E-44A5-AC63-E1C69EFD6896}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketReversedTunnelCommon", "WebSocketReversedTunnelCommon\WebSocketReversedTunnelCommon.csproj", "{7C4AD455-8ADC-4BC3-8158-91FDD274131D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1AA355F0-C49E-44A5-AC63-E1C69EFD6896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AA355F0-C49E-44A5-AC63-E1C69EFD6896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AA355F0-C49E-44A5-AC63-E1C69EFD6896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4AD455-8ADC-4BC3-8158-91FDD274131D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4AD455-8ADC-4BC3-8158-91FDD274131D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4AD455-8ADC-4BC3-8158-91FDD274131D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4AD455-8ADC-4BC3-8158-91FDD274131D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

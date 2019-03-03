@@ -1,6 +1,4 @@
-﻿using System;
-using System.Net;
-using System.Net.Sockets;
+﻿using System.Net.Sockets;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -35,11 +33,10 @@ namespace WebSocketReversedTunnelServer
 
             app.UseWebSockets();
 
-            app.Map("/ws-connection", builder => builder.UseMiddleware<WsConnection>());
+            app.Map("/ws-connection", builder => builder.UseMiddleware<WsConnectionHandler>());
 
             app.UseHttpsRedirection();
             app.UseMvc();
         }
-        
     }
 }
